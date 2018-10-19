@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "sdkVersion": "23.0.0",
+    "android":{
+		"package":"com.marotu.notes",
+		"versionCode":1.0,
+		"icon":"./app/images/notes.png"		
+	}
+  }
+
+}

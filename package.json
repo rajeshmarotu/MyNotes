@@ -1,0 +1,43 @@
+{
+  "name": "MyNotes",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "23.0.0",
+    "react-native-scripts": "1.8.1",
+    "react-test-renderer": "16.0.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
+    "axios": "^0.17.1",
+    "expo": "^23.0.4",
+    "firebase": "^5.2.0",
+    "native-base": "^2.3.3",
+    "react": "16.0.0",
+    "react-native": "0.50.3",
+    "react-native-autogrow-textinput": "^5.1.1",
+    "react-native-pop-menu": "0.0.9",
+    "react-native-popup-menu": "^0.9.1",
+    "react-native-tts": "^2.0.0",
+    "react-navigation": "^1.5.1",
+    "react-navigation-backhandler": "^1.1.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-axios-middleware": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.2.0"
+  }
+}
